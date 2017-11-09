@@ -1,0 +1,195 @@
+body {
+	margin:0;
+	padding:0;
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	background-color: #f4f4f4;
+}
+
+/* GLOBAL */
+
+.container {
+	width: 80%;
+	margin:auto;
+	;
+
+}
+
+ul {
+
+	margin:0;
+	padding:0;
+}
+
+.highlight {
+	color: #79CEDC;
+}
+
+/* HEADER */
+
+header {
+
+	min-height: 70px;
+	background-color: #35424a;
+	padding-top: 30px;
+	color: #ffffff;
+	border-bottom: #e8491d 3px solid;
+
+}
+
+header #brand {
+	float: left;
+}
+
+header #brand h1 {
+	margin:0;
+
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+header nav {
+	margin-top: 10px;
+}
+
+
+header nav ul {
+	float:right;
+
+
+}
+
+
+header nav ul li {
+	list-style-type: none;
+	float:left;
+	padding-right: 15px;
+	
+
+}
+
+header #brand h1 {
+	margin-top: -15px;
+}
+
+
+header li {
+
+	padding: 0px 20px 0px 20px;
+}
+
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+
+/* SHOWCASE */
+
+#showcase {
+	min-height: 400px;
+	background:url('../img/showcase.jpg') no-repeat 0px -400px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+#showcase h1 {
+	font-size: 55px;
+	margin-top: 100px;
+}
+
+
+/* NEWSLETTER */
+
+#newsletter {
+	min-height: 115px;
+	background-color: #35424a;
+	padding-top: 10px;
+	margin-top: -15px;
+	color: #ffffff;
+
+
+
+}
+
+#newsletter h1 {
+	float: left;
+	margin-top: 30px;
+	
+}
+
+
+#newsletter form {
+	float:right;
+	margin-top: 35px;
+}
+
+
+#newsletter input[type="email"] {
+	height: 30px;
+	width: 225px;
+	padding: 4px;
+	border:none;
+	border-radius: 2px;
+}
+
+#newsletter button[type="submit"] {
+	height: 38px;
+	border:none;
+	border-radius: 2px;
+	color: white;
+	background-color: #E7491E;
+	font-size: 14px;
+	width: 100px;
+	position: relative;
+	top: .5px;
+}
+
+
+/* BOXES */
+
+#boxes {
+	height: 400px;
+	margin-top: -18px;
+	
+
+	
+
+}
+
+#boxes .box {
+
+	margin-top: 40px;
+	width: 30%;
+	float:left;
+	padding: 20px;
+	text-align: center;
+	
+
+}
+
+
+.box img {
+	width: 150px;
+	
+
+}
+
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	background-color: #E7491E;
+	padding: 10px;
+	color: #ffffff;
+	margin-top: 10px;
+}
